@@ -21,22 +21,22 @@
 
 |       | Monday      | Tuesday      | Wednesday    | Thursday  | Friday      | Saturday    | Sunday      |
 |-------+-------------+--------------+--------------+-----------+-------------+-------------+-------------|
-| 08:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
-| 09:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
-| 10:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
-| 11:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{blue}}} | {{{green}}} | {{{blue}}} |
-| 12:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{blue}}} | {{{green}}} | {{{blue}}} |
-| 13:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{blue}}} | {{{green}}} | {{{green}}} |
-| 14:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
-| 15:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
-| 16:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
-| 17:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
-| 18:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{blue}}} | {{{green}}} |
-| 19:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}} | {{{green}}} |
-| 20:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}} | {{{green}}} |
-| 21:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
-| 22:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
-| 23:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
+| 08:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}}  |
+| 09:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}}  |
+| 10:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}}  |
+| 11:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{blue}}}  | {{{green}}} | {{{blue}}}  |
+| 12:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{blue}}}  | {{{green}}} | {{{blue}}}  |
+| 13:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{blue}}}  | {{{green}}} | {{{blue}}} |
+| 14:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{blue}}} |
+| 15:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{blue}}} |
+| 16:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{blue}}} |
+| 17:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{blue}}} |
+| 18:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{blue}}}  | {{{blue}}} |
+| 19:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}}  | {{{blue}}} |
+| 20:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}}  | {{{blue}}} |
+| 21:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 22:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 23:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
 
 
 Unavailable: @@html:<span class="block" style="background-color:red; color:red">Unavailable</span>@@
