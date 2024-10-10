@@ -40,8 +40,11 @@
 
 
 Unavailable: @@html:<span class="block" style="background-color:red; color:red">Unavailable</span>@@
+
 Available: @@html:<span class="block" style="background-color:lime; color:lime">Available</span>@@
+
 Currently unavailable: @@html:<span class="block" style="background-color:aqua; color: aqua">Currently unavailable</span>@@
+
 Usually Available: @@html:<span class="block" style="background-color:yellow;">Usually Available</span>@@
 
 
