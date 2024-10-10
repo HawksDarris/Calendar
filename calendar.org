@@ -39,9 +39,9 @@
 | 23:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
 
 
-Unavailable: @@html:<span class="block" style="background-color:red; color:red">Unavailable</span>@@
+Never Available: @@html:<span class="block" style="background-color:red; color:red">Unavailable</span>@@
 
-Available: @@html:<span class="block" style="background-color:lime; color:lime">Available</span>@@
+Currently Available: @@html:<span class="block" style="background-color:lime; color:lime">Available</span>@@
 
 Currently unavailable: @@html:<span class="block" style="background-color:aqua; color: aqua">Currently unavailable</span>@@
 
