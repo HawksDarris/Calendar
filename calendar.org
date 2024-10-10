@@ -1,0 +1,51 @@
+#+TITLE: Darris's Current Calendar
+#+AUTHOR:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+:html_properties:
+#+EXPORT_FILE_NAME: ~/share/Teaching/reveal.js-master/calendar.html
+#+AUTHOR:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+MACRO: red  @@html:<div style="background-color:red; height:100%; width:100%;color:red;">Unavailable</div>@@
+#+MACRO: green  @@html:<div style="background-color:lime; height:100%; width:100%;color:lime;">Available</div>@@
+#+MACRO: blue  @@html:<div style="background-color:aqua; height:100%; width:100%;color:aqua;">Unavailable</div>@@
+#+MACRO: yellow  @@html:<div style="background-color:yellow; height:100%; width:100%;color:yellow;">Usually</div>@@
+
+#+HTML_HEAD: <style>
+#+HTML_HEAD: table { border-collapse: collapse; }
+#+HTML_HEAD: td { padding: 8px; border: 1px solid #ddd; text-align: center; }
+#+HTML_HEAD: .block {  height:22px; display:inline-block; width:100px; color:yellow; overflow:hidden; }
+#+HTML_HEAD: </style>
+:end:
+
+* <2024-10-10 Thu>
+
+|       | Monday      | Tuesday      | Wednesday    | Thursday  | Friday      | Saturday    | Sunday      |
+|-------+-------------+--------------+--------------+-----------+-------------+-------------+-------------|
+| 08:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 09:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 10:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 11:00 | {{{red}}}   | {{{red}}}    | {{{red}}}    | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 12:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
+| 13:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
+| 14:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
+| 15:00 | {{{red}}}   | {{{yellow}}} | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
+| 16:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
+| 17:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{green}}} | {{{green}}} |
+| 18:00 | {{{red}}}   | {{{red}}}    | {{{yellow}}} | {{{red}}} | {{{red}}}   | {{{blue}}} | {{{green}}} |
+| 19:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}} | {{{green}}} |
+| 20:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{blue}}} | {{{green}}} |
+| 21:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
+| 22:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
+| 23:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{green}}} |
+
+
+Unavailable: @@html:<span class="block" style="background-color:red; color:red">Unavailable</span>@@
+Available: @@html:<span class="block" style="background-color:lime; color:lime">Available</span>@@
+Currently unavailable: @@html:<span class="block" style="background-color:aqua; color: aqua">Currently unavailable</span>@@
+Usually Available: @@html:<span class="block" style="background-color:yellow;">Usually Available</span>@@
+
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-html-export-to-html
+# end:
