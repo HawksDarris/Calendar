@@ -43,11 +43,11 @@
 | 23:00 | {{{green}}} | {{{green}}}  | {{{green}}}  | {{{red}}} | {{{green}}} | {{{green}}} | {{{blue}}} |
 
 
-Never Available: @@html:<span class="block red">Unavailable</span>@@
-
 Currently Available: @@html:<span class="block green">Available</span>@@
 
-Currently unavailable: @@html:<span class="block blue">Currently unavailable</span>@@
+Currently Unavailable: @@html:<span class="block blue">Currently unavailable</span>@@
+
+Never Available: @@html:<span class="block red">Unavailable</span>@@
 
 Usually Available: @@html:<span class="block yellow">Usually Available</span>@@
 
