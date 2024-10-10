@@ -3,7 +3,7 @@
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 :html_properties:
 #+EXPORT_FILE_NAME: ~/share/Teaching/schedule/index.html
-#+AUTHOR:
+#+OPTIONS: num:nil
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+MACRO: red  @@html:<div class="red" style="height:100%; width:100%;">Unavailable</div>@@
 #+MACRO: green  @@html:<div class="green" style="height:100%; width:100%;">Available</div>@@
@@ -18,10 +18,9 @@
 #+HTML_HEAD: .yellow { background-color:yellow; color: yellow;}
 #+HTML_HEAD: .red { background-color:red; color: red;}
 #+HTML_HEAD: .green { background-color:lime; color: lime;}
+#+HTML_HEAD: .date { color:darkgoldenrod; font-size: 150% !important; text-align:center; font-weight: bold;}
 #+HTML_HEAD: </style>
 :end:
-
-* <2024-10-10 Thu>
 
 |       | Monday      | Tuesday      | Wednesday    | Thursday  | Friday      | Saturday    | Sunday      |
 |-------+-------------+--------------+--------------+-----------+-------------+-------------+-------------|
