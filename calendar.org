@@ -1,4 +1,4 @@
-#+TITLE: Darris's Current Calendar
+#+TITLE: Darris's Calendar
 #+AUTHOR:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 :html_properties:
